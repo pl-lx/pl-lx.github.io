@@ -1,0 +1,27 @@
+title: PL @ LX
+author:
+  name: PL @ LX
+  email: pl_lx@groups.google.com
+
+description: Community in Lisbon interested in Programming Languages
+
+baseurl: ""
+url: "https://pl-lx.github.io"
+
+permalink: /:year-:month-:day/:title
+paginate: 5
+
+# Build settings
+remote_theme: chesterhow/tale
+
+plugins:
+  - jekyll-paginate
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
