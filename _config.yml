@@ -3,9 +3,8 @@ lang: en
 locale: en_US
 
 # Theme
-# GitHub Pages provided theme https://github.com/pages-themes/so-simple
-# Using the gem version keeps configuration minimal.
-theme: jekyll-theme-so-simple
+# Use the So Simple theme via remote_theme so GitHub Pages can build it.
+remote_theme: mmistakes/so-simple-theme
 
 # Site metadata
 title: "PL @ LX"
@@ -30,6 +29,7 @@ footer_links:
 # Build settings
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 # Collections (none for now)
 collections:
