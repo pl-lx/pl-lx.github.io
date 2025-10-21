@@ -1,0 +1,37 @@
+# Site settings
+lang: en
+locale: en_US
+
+# Theme
+# GitHub Pages provided theme https://github.com/pages-themes/so-simple
+# Using the gem version keeps configuration minimal.
+theme: jekyll-theme-so-simple
+
+# Site metadata
+title: "PL @ LX"
+description: "Informal programming language design and implementation community in Lisbon"
+url: "https://gabmeirinho.github.io"
+baseurl: ""
+
+# Owner information displayed in theme footer
+author:
+  name: "PL @ LX"
+  location: "Lisbon, Portugal"
+
+# Footer social/profile links
+footer_links:
+  - label: "Mailing List"
+    icon: "fas fa-envelope"
+    url: "https://groups.google.com/g/pl_lx/"
+  - label: "GitHub"
+    icon: "fab fa-github"
+    url: "https://github.com/gabmeirinho"
+
+# Build settings
+plugins:
+  - jekyll-feed
+
+# Collections (none for now)
+collections:
+  posts:
+    output: true
