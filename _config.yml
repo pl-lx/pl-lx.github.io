@@ -5,8 +5,8 @@ author:
 
 description: Community in Lisbon interested in Programming Languages
 
-baseurl: "/pl-lx"
-url: "https://rcosta358.github.io"
+baseurl: ""
+url: "https://pl-lx.github.io"
 
 permalink: /:year-:month-:day/:title
 paginate: 5
