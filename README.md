@@ -11,6 +11,16 @@ Most activities are disseminated via the [pl_lx@groups.google.com mailing list](
 
 We try to have some in-person events to discuss ongoing work. We are also looking for companies interested in hosting our meetups.
 
+
+## PL @ LX Ε
+
+3 de Fevereiro de 2026 at OutSystems
+
+* Model Checking Security Properties of Node.js Packages — *André Nascimento* e *Filipe Marques* (IST)
+* The Haskell Debugger — *Rodrigo Mesquita* (Well-Typed)
+* Ensuring Convergence and Invariants Without Coordination — *Dina Borrego* (FCT-UNL)
+* * TBD — *Hugo Lourenço* (OutSystems)
+
 ## PL @ LX Δ
 
 23 de Janeiro de 2025 at Faculdade de Ciências da Universidade de Lisboa
