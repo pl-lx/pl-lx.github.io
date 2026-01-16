@@ -1,10 +1,7 @@
 ---
-layout: post
-title: "PL @ LX Δ"
-date: 2025-01-23
-author: "PL @ LX"
-tags: Events
-category: events
+layout: page
+title: "PL @ LX Δ — Delta"
+permalink: /events/delta/
 ---
 
 **Location:** Faculdade de Ciências da Universidade de Lisboa
@@ -17,3 +14,7 @@ category: events
 * **A logician's look into temporal laws** — *Ana Borges* (Formal Vindications)
 * **Adoption Barriers for Liquid Types** — *Catarina Gamboa* (FCUL+CMU)
 * **Collaborative Code Editing with Continuous Integration** — *André Santos* (ISCTE)
+
+## Notes
+
+Add abstracts and speaker bios here when available.
