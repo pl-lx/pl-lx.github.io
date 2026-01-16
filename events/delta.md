@@ -2,6 +2,8 @@
 layout: page
 title: "PL @ LX Δ — Delta"
 permalink: /events/delta/
+date: 2025-01-23
+category: events
 ---
 
 **Location:** Faculdade de Ciências da Universidade de Lisboa

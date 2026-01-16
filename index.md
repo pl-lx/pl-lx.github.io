@@ -4,33 +4,46 @@ title: Home
 ---
 
 **PL @ LX** is an informal community in Lisbon (and surrounding areas) who are interested in Programming Language Design and Implementation. Everyone is welcome, from students to industrial developers and academics.
+**PL @ LX** is an active, community-led series of technical meetups in Lisbon focusing on programming languages, tooling, verification, and practical engineering challenges.
 
-## Mailing List
+## Join the Community
 
-Most activities are disseminated via the [mailing list](https://groups.google.com/g/pl_lx/). Subscribe to stay updated!
+Most activities are coordinated via the [mailing list](https://groups.google.com/g/pl_lx/). Subscribe to get announcements and speaker calls-for-proposals.
 
-## Events
+<p style="text-align:center; margin-top:1rem;">
+	<a class="btn-primary" href="https://groups.google.com/g/pl_lx/">Join the Mailing List</a>
+	<a class="btn-ghost" href="/events">See All Events</a>
+</p>
 
-Below are our events (click an event for more information). The list shows the event announcement and the talks; use the "More information" link to add full titles, abstracts and speaker bios.
+## Upcoming & Recent Events
 
-<div class="catalogue">
-	{% assign event_posts = site.posts | where: "category", "events" | sort: "date" | reverse %}
-	{% for post in event_posts %}
-		<div class="catalogue-item">
-			<time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time>
-			<h3 class="catalogue-title"><a href="{{ post.event_page | default: post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-			<div class="catalogue-line"></div>
-			<p>{{ post.content | strip_html | truncatewords: 60 }}</p>
-			<p><a href="{{ post.event_page | default: post.url | prepend: site.baseurl }}">More information</a></p>
-		</div>
+Below are our events (newest first). Click an event for full details including abstracts and speaker bios.
+
+<div class="events-grid">
+	{% assign event_pages = site.pages | where: "category", "events" | sort: "date" | reverse %}
+	{% for ev in event_pages %}
+		<article class="event-card">
+			<header>
+				<time datetime="{{ ev.date }}" class="event-date">{{ ev.date | date: "%B %d, %Y" }}</time>
+				<h3 class="event-title"><a href="{{ ev.url | prepend: site.baseurl }}">{{ ev.title }}</a></h3>
+			</header>
+			<div class="event-body">
+				<p>{{ ev.content | strip_html | truncatewords: 30 }}</p>
+			</div>
+			<footer class="event-actions">
+				<a class="link" href="{{ ev.url | prepend: site.baseurl }}">More information</a>
+			</footer>
+		</article>
 	{% endfor %}
 </div>
 
+## Want to present?
+
+We welcome practical, technical talks and lightning demonstrations. Contact the organisers via the mailing list or email any of the contacts in the footer.
+
 # Contacts
 
-In case you want to present at the next meetup, feel free to contact any of the following:
-
 * Alcides Fonseca <me@alcidesfonseca.com> (FCUL)
-* Luís Caires <luis.caires@tecnico.ulisboa.pt> (IST)
+* Luís Caires <luís.caires@tecnico.ulisboa.pt> (IST)
 * João Costa Seco <joao.seco@fct.unl.pt> (FCT-UNL)
 * André Santos <andre.santos@iscte-iul.pt> (ISCTE)

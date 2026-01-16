@@ -2,6 +2,8 @@
 layout: page
 title: "PL @ LX Β — Beta"
 permalink: /events/beta/
+date: 2024-04-28
+category: events
 ---
 
 **Location:** Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa

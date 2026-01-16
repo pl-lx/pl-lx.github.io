@@ -2,6 +2,8 @@
 layout: page
 title: "PL @ LX Γ — Gamma"
 permalink: /events/gamma/
+date: 2024-06-03
+category: events
 ---
 
 **Location:** Instituto Superior Técnico

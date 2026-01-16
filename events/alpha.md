@@ -2,6 +2,8 @@
 layout: page
 title: "PL @ LX Α — Alpha"
 permalink: /events/alpha/
+date: 2024-01-10
+category: events
 ---
 
 **Location:** Faculdade de Ciências da Universidade de Lisboa
