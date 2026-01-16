@@ -16,10 +16,12 @@ We try to have some in-person events to discuss ongoing work. We are also lookin
 
 3 de Fevereiro de 2026 at OutSystems
 
+* Undo and Redo in Concurrent Multifaceted Low-code Application Models — *Hugo Lourenço* (OutSystems)
+* * The Haskell Debugger — *Rodrigo Mesquita* (Well-Typed)
 * Model Checking Security Properties of Node.js Packages — *André Nascimento* e *Filipe Marques* (IST)
-* The Haskell Debugger — *Rodrigo Mesquita* (Well-Typed)
 * Ensuring Convergence and Invariants Without Coordination — *Dina Borrego* (FCT-UNL)
-* * TBD — *Hugo Lourenço* (OutSystems)
+
+[Registration and Full Information](/epsilon)
 
 ## PL @ LX Δ
 

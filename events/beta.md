@@ -1,9 +1,8 @@
 ---
-layout: post
-title: "PL @ LX Β"
+layout: page
+title: "PL @ LX Β — Beta"
+permalink: /events/beta/
 date: 2024-04-28
-author: "PL @ LX"
-tags: Events
 category: events
 ---
 
@@ -15,3 +14,7 @@ category: events
 
 * **Type-checking Linearity in Core: Semantic Linearity for a Lazy Optimising Compiler** — *Rodrigo Mesquita* (Well-Typed, FCT-UNL)
 * **Testing and Verifying Rust's Next Mile** — *Yoshiki Takashima* (CMU)
+
+## Notes
+
+Add abstracts and speaker bios here when available.
