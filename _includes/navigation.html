@@ -1,1 +1,11 @@
-{%- comment -%} Top navigation removed as requested {%- endcomment -%}
+<nav class="nav">
+  <div class="nav-container container">
+    <a class="nav-logo-link" href="{{ "/" | relative_url }}">
+      <img
+        class="nav-logo"
+        src="{{ "/assets/logo.png" | relative_url }}"
+        alt="{{ site.title | default: "Home" }} logo"
+      >
+    </a>
+  </div>
+</nav>
