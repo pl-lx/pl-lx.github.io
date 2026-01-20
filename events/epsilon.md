@@ -6,10 +6,6 @@ date: 2026-02-03
 category: events
 ---
 
-
-
-**PL@LX Epsilon**
-
 **Location:** OutSystems - Linda-a-Velha
 
 **Date:** February 3, 2026, 14h
