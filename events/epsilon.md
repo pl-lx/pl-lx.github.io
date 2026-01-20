@@ -6,9 +6,7 @@ date: 2026-02-03
 category: events
 ---
 
-Important: Since the first edition, we wanted to involve companies and developers in this group. Finally, we are hosting the first edition outside an academic campus, at OutSystems. To achieve that, we require participants to sign up, so we know who is attending beforehand.
 
-<a class="btn-primary" href="https://forms.gle/PJRxm5vAE9zjrLEdA">Register</a>
 
 **PL@LX Epsilon**
 
@@ -16,16 +14,19 @@ Important: Since the first edition, we wanted to involve companies and developer
 
 **Date:** February 3, 2026, 14h
 
-## Program
+# Program
 
 - 14h00: Hugo Lourenço (OutSystems) - **Undo and Redo in Concurrent Multifaceted Low-code Application Models**
 - 14h40: André Nascimento e Filipe Marques (IST) - **How to find and exploit vulnerabilities in Node.js packages?**
 - 15h20: Dina Borrego (FCT-UNL) - **Ensuring Convergence and Invariants Without Coordination**
 - 16h00: Rodrigo Mesquita (Well-Typed) - **The Haskell Debugger**
 
-You can read more about each talk below.
+Important: Since the first edition, we wanted to involve companies and developers in this group. Finally, we are hosting the first edition outside an academic campus, at OutSystems. To achieve that, we require participants to sign up, so we know who is attending beforehand.
 
-- Alcides
+<a class="btn-primary" href="https://forms.gle/PJRxm5vAE9zjrLEdA">Register</a>
+
+
+# Talk Details
 
 ## Undo and Redo in Concurrent Multifaceted Low-code Application Models
 
