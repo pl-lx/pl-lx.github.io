@@ -23,7 +23,22 @@ body{font-family:Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Rob
 .event-actions{margin-top:1rem}
 .link{color:var(--brand);font-weight:600;text-decoration:none}
 .link:hover{text-decoration:underline}
-@media(min-width:900px){.container, main{max-width:1100px;width:90%}}
+
+/* Layout container with comfortable margins */
+.container,
+main{
+  max-width:1100px;
+  width:100%;
+  margin:0 auto;
+  padding:0 1.25rem;
+}
+
+@media(min-width:900px){
+  .container,
+  main{
+    padding:0 2rem;
+  }
+}
 
 /* Header/Navigation tweaks */
 .nav{background:#fff}
