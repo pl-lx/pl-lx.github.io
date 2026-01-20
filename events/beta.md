@@ -10,6 +10,10 @@ category: events
 
 **Date:** April 28, 2024
 
+**Speakers:** Rodrigo Mesquita; Yoshiki Takashima
+
+<!--more-->
+
 ## Program
 
 * **Type-checking Linearity in Core: Semantic Linearity for a Lazy Optimising Compiler** — *Rodrigo Mesquita* (Well-Typed, FCT-UNL)

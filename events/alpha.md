@@ -10,6 +10,10 @@ category: events
 
 **Date:** January 10, 2024
 
+**Speakers:** Guilherme Espada; Henrique Guerra
+
+<!--more-->
+
 ## Program
 
 * **Sound Interval-Based Synthesis for Probabilistic Programs** — *Guilherme Espada* (FCUL)

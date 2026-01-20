@@ -10,6 +10,10 @@ category: events
 
 **Date:** June 03, 2024
 
+**Speakers:** Philip Wadler; Peter Thiemann; José Fragoso Santos; Vasco T. Vasconcelos
+
+<!--more-->
+
 ## Program
 
 * **Bullshit Bots** — *Philip Wadler* (U. Edinburgh)

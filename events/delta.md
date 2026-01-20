@@ -10,6 +10,10 @@ category: events
 
 **Date:** January 23, 2025
 
+**Speakers:** Luís Caires; Ana Borges; Catarina Gamboa; André Santos
+
+<!--more-->
+
 ## Program
 
 * **Programming with CLASS** — *Luís Caires* (IST)

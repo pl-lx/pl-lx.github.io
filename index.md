@@ -28,7 +28,13 @@ Below are our events (newest first). Click an event for full details including a
 				<h3 class="event-title"><a href="{{ ev.url | prepend: site.baseurl }}">{{ ev.title }}</a></h3>
 			</header>
 			<div class="event-body">
-				<p>{{ ev.content | strip_html | truncatewords: 30 }}</p>
+				<p>
+					{% if ev.excerpt %}
+						{{ ev.excerpt | strip_html }}
+					{% else %}
+						{{ ev.content | strip_html | truncatewords: 30 }}
+					{% endif %}
+				</p>
 			</div>
 			<footer class="event-actions">
 				<a class="link" href="{{ ev.url | prepend: site.baseurl }}">More information</a>

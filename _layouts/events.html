@@ -18,7 +18,13 @@ layout: default
         <h3 class="event-title"><a href="{{ ev.url | prepend: site.baseurl }}">{{ ev.title }}</a></h3>
       </header>
       <div class="event-body">
-        <p>{{ ev.content | strip_html | truncatewords: 60 }}</p>
+        <p>
+          {% if ev.excerpt %}
+            {{ ev.excerpt | strip_html }}
+          {% else %}
+            {{ ev.content | strip_html | truncatewords: 60 }}
+          {% endif %}
+        </p>
       </div>
       <footer class="event-actions">
         <a class="link" href="{{ ev.url | prepend: site.baseurl }}">More information</a>

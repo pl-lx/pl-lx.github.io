@@ -10,6 +10,7 @@ url: "https://pl-lx.github.io"
 
 permalink: /:year-:month-:day/:title
 paginate: 5
+excerpt_separator: "<!--more-->"
 
 # Build settings
 remote_theme: chesterhow/tale

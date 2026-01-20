@@ -14,6 +14,10 @@ category: events
 
 **Date:** February 3, 2026, 14h
 
+**Speakers:** Hugo Lourenço; André Nascimento; Filipe Marques; Dina Borrego; Rodrigo Mesquita
+
+<!--more-->
+
 # Program
 
 - 14h00: Hugo Lourenço (OutSystems) - **Undo and Redo in Concurrent Multifaceted Low-code Application Models**
